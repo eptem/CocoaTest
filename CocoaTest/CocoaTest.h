@@ -14,12 +14,6 @@ FOUNDATION_EXPORT double CocoaTestVersionNumber;
 //! Project version string for CocoaTest.
 FOUNDATION_EXPORT const unsigned char CocoaTestVersionString[];
 
-class test {
-    
-    
-public:
-    
-};
 // In this header, you should import all the public headers of your framework using statements like #import <CocoaTest/PublicHeader.h>
 
 

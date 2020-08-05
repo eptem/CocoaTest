@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6B94B71A24DAD3E300722A17 /* CocoaTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B94B71824DAD3E300722A17 /* CocoaTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B94B72124DAD4EF00722A17 /* CocoaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94B72024DAD4EF00722A17 /* CocoaTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B94B71524DAD3E300722A17 /* CocoaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B94B71824DAD3E300722A17 /* CocoaTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaTest.h; sourceTree = "<group>"; };
 		6B94B71924DAD3E300722A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B94B72024DAD4EF00722A17 /* CocoaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				6B94B71824DAD3E300722A17 /* CocoaTest.h */,
 				6B94B71924DAD3E300722A17 /* Info.plist */,
+				6B94B72024DAD4EF00722A17 /* CocoaTest.swift */,
 			);
 			path = CocoaTest;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					6B94B71424DAD3E300722A17 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B94B72124DAD4EF00722A17 /* CocoaTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		6B94B71E24DAD3E300722A17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z273JZB42Z;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eptem.CocoaTest;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		6B94B71F24DAD3E300722A17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z273JZB42Z;
